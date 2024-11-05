@@ -1,6 +1,7 @@
 :root{
     --navbar-color: #7400B8;
-    --body-color: (270deg, rgba(72,191,227,1) 0%, rgba(114,239,221,1) 49%, rgba(94,96,206,1) 100%);
+    --body-color: linear-gradient(270deg, rgba(72,191,227,1) 0%, rgba(114,239,221,1) 49%, rgba(94,96,206,1) 100%);
+    --card-color: #b5179e;
 }
 
 .navbar-color{
@@ -8,5 +9,9 @@
 }
 
 .body-color{
-    background-color: var(--body-color);
+    background: var(--body-color);
+}
+
+.card-color{
+    background-color: var(--card-color);
 }
